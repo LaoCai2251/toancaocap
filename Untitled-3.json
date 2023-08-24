@@ -1,0 +1,21 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const calculateBtn = document.getElementById("calculateBtn");
+    const inputExpression = document.getElementById("inputExpression");
+    const resultTable = document.getElementById("resultTable");
+  
+    calculateBtn.addEventListener("click", function () {
+      const expression = inputExpression.value;
+      const result = evaluateLogicExpression(expression);
+      displayResultTable(result);
+    });
+  
+    function evaluateLogicExpression(expression) {
+      // Your logic evaluation code here
+      // Return an object or array representing the result
+    }
+  
+    function displayResultTable(result) {
+      // Your code to generate and display the result table
+    }
+  });
+  
